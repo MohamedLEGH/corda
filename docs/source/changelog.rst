@@ -7,6 +7,11 @@ from the previous milestone release.
 Unreleased
 ----------
 
+.. _changelog_v3.1:
+
+Version 3.1
+-----------
+
 * Errors thrown by a Corda node will now reported to a calling RPC client with attention to serialization and obfuscation of internal data.
 
 * Update the fast-classpath-scanner dependent library version from 2.0.21 to 2.12.3
