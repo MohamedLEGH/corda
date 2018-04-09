@@ -12,7 +12,9 @@ Unreleased
 Version 3.1
 -----------
 
-* Errors thrown by a Corda node will now reported to a calling RPC client with attention to serialization and obfuscation of internal data.
+* Errors thrown by a Corda node will now be reported to a calling RPC client with attention given internally of the node
+  to serialization and obfuscation of internal data, preventing leaking of information through stack traces in exception
+  handlers.
 
 * Update the fast-classpath-scanner dependent library version from 2.0.21 to 2.12.3
 
